@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Madrasha Management</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">জামিয়া রাহমানিয়া কওমী মাদ্রাসা ও এতিমখানা </string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="father">পিতার নাম</string>
+    <string name="dakhela">দাখেলা নং</string>
+    <string name="idno">ক্রমিক নম্বর</string>
+    <string name="address">ঠিকানা</string>
+    <string name="name">নাম</string>
+    <string name="phone">মোবাইল নম্বার</string>
+    <string name="vortitext">নতুন ছাত্র ভর্তি করুন</string>
+    <string name="submit">জমা দিন</string>
+    <string name="notice">ভর্তি চলছে!    ভর্তি চলছে!!    ভর্তি চলছে!!! "\n"
+            আপনাদের প্রান প্রিয় প্রতিষ্ঠান জামিয়া রহমানিয়া ক্বাওমী মাদরাসা ও এতিম খানায় আগামি ৭ ই শাওয়াল থেকে নূরানী, নাজেরা, হেফজ  বিভাগ ও কিতাব বিভাগ তাইসির জামাত থেকে মেশকাত
+            (ফযীলত ২য় বর্ষ- স্নাতক) জামাত পর্যন্ত সীমিত আসনে ভর্তি  চলবে।"\n"
+            অতএব যারা নিজেদের সন্তান/আত্বীয় স্বজনদেরকে দ্বীনী ইলম শিক্ষা করাতে এবং অত্র প্রতিষ্ঠানে ভর্তি করাতে ইচ্ছুক মাদ্রাসার ঠিকানায় যোগাযোগ করুন।"\n"
+            মাদ্রাসার ঠীকানা "\n"  জামিয়া রাহমানিয়া ক্বাওমী মাদ্রাসা ও এতিম খানা জোকারপাড়া, হাজীপুর, জামালপুর"\n"
+
+            মোবাইল ০১৯৩৫-১৬৭৪৯৯ , ০১৮২০৯০৯৬৯৯
+
+        </string>
+    <string name="mporicity">
+        জামালপুর জেলার অন্তর্গত কেন্দুয়াকালী বাড়ী ও হাজীপুর এর মাঝামাঝি জোকার পাড়া/মৌলভী বাড়ী তে
+এক মনোরম  পরিবেশে অবস্থিত জামিয়া রাহমানিয়া ক্বাওমী মাদ্রাসা, ও এতিম খানা
+        "\n"
+স্থাপিত ২০০৪ ইংরেজি
+        "\n""\n"
+
+বর্তমান মুহতামিম"\n"  মাও: মাহবুবুর রহমান সাক্বী
+মোবাইল : ০১৯৩৫-১৬৭৪৯৯,০১৮২০-৯০৯৬৯৯
+"\n""\n"
+বর্তমান সভাপতি"\n" আলহাজ্ব সৈয়দ ডা: হাবিবুর রহমান
+"\n"
+বর্তমান  সেক্রেটারী"\n"  আলহাজ্ব সৈয়দ মুশিউর রহমান ( শাহিদ)
+"\n""\n"
+মাদ্রাসার শিক্ষক  মোট ১২ জন
+বাবুর্চি ২ জন
+"\n""\n"
+বিভাগ সমুহ "\n"
+নূরানী, নাজেরা, হেফজ,
+কিতাব বিভাগ
+তাইসির জামাত থেকে দাওরায়ে হাদিস (মাস্টার্স) পর্যন্ত
+"\n"
+ছাত্র সংখ্যা ১৫০ জন
+"\n""\n"
+
+যাতায়াত
+বাংলাদেশের যে কোন যায়গা থেকে জামালপুর এসে তার পর হাজীপুর অথবা বটতলার গাড়ী তে করে
+জামিয়া রাহমানিয়া ক্বাওমী মাদরাসা ও এতিম খানা  জোকারপাড়া,হাজীপুর,জামালপুর</string>
+    <string name="collectFund">ব্যয় যুক্ত করুন</string>
+    <string-array name="jamat">
+        <item>নূরানী ১ম</item>
+        <item>নূরানী ২য় </item>
+        <item>হেফজ ভিবাগ</item>
+        <item>তাইসির জামাত</item>
+        <item>মিজান জামাত </item>
+        <item> নাহভেমীর জামাত</item>
+        <item>হেদায়েতুন্নাহু জামাত</item>
+        <item>কাফিয়া এবং শরহেজামী জামাত</item>
+        <item>শরহে বেকায়া জামাত</item>
+        <item>জালালাইন জামাত</item>
+        <item>ফযীলত ২য় বর্ষ- স্নাতক</item>
+        <item>দাওরায়ে হাদিস (মাস্টার্স)</item>
+
+    </string-array>
+    <string-array name="jamatname">
+        <item>নূরানী ১ম</item>
+        <item>নূরানী ২য় </item>
+        <item>হেফজ ভিবাগ</item>
+        <item>তাইসির জামাত</item>
+        <item>মিজান জামাত </item>
+        <item> নাহভেমীর জামাত</item>
+        <item>হেদায়েতুন্নাহু জামাত</item>
+        <item>কাফিয়া এবং শরহেজামী জামাত</item>
+        <item>শরহে বেকায়া জামাত</item>
+        <item>জালালাইন জামাত</item>
+        <item>মেশকাত জামাত</item>
+    </string-array>
+</resources>

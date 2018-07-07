@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/login_id"
+            android:icon="@drawable/login_icon"
+            android:title="লগইন" />
+        <item
+            android:id="@+id/about_id"
+            android:icon="@drawable/about_madrasa_logo"
+            android:title="মাদ্রাসা পরিচিতি"/>
+        <item
+            android:id="@+id/about_commitee_id"
+            android:icon="@drawable/about_commitee_logo"
+            android:title="কমিটি পরিচিতি"/>
+        <item
+            android:id="@+id/about_teacher_id"
+            android:icon="@drawable/about_teacher_logo"
+            android:title="শিক্ষক পরিচিতি"/>
+        <item
+            android:id="@+id/vorti_info_id"
+            android:icon="@drawable/info_logo"
+            android:title="ভর্তি তথ্য" />
+        <item
+            android:id="@+id/income_id"
+            android:icon="@drawable/income_logo"
+            android:title="মাদ্রাসার আয় " />
+        <item
+            android:id="@+id/bay_id"
+            android:icon="@drawable/cost_logo"
+            android:title="মাদ্রাসার ব্যয় " />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="01861143333" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="kawsar_dc@outlook.com" />
+        </menu>
+    </item>
+
+</menu>

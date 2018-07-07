@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "287039289307",
+    "firebase_url": "https://madrashamanagement.firebaseio.com",
+    "project_id": "madrashamanagement",
+    "storage_bucket": "madrashamanagement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287039289307:android:164cb6828c30fd32",
+        "android_client_info": {
+          "package_name": "me.prokawsar.madrashamanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287039289307-pb0jtb9nejn8eeb8ksm6f1t572ve1bgb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.prokawsar.madrashamanagement",
+            "certificate_hash": "74e822a3a0aa1c2bc0e08834a33f7bccbbae75bf"
+          }
+        },
+        {
+          "client_id": "287039289307-50lrofmepe8da02t0t6cdj8lvv5jeo1b.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "287039289307-50lrofmepe8da02t0t6cdj8lvv5jeo1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw3WLeZS_46BooV1kPPmEcMiluR_hZtFE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287039289307-50lrofmepe8da02t0t6cdj8lvv5jeo1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

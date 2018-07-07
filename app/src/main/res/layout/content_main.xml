@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:orientation="vertical"
+               android:background="#cadac9"
+               android:paddingBottom="10dp"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:id="@+id/textView5"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/nav_header_title"
+                   android:textStyle="bold"
+                   android:textAlignment="center"
+                   android:background="#c9deb4"
+                   android:textColor="#000"
+                   android:paddingTop="10dp"
+                   android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+               <ImageView
+                   android:id="@+id/imageView2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                  android:padding="10dp"
+                   app:srcCompat="@mipmap/madrasa" />
+           </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:background="#f9f4cc"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/textView6"
+                  android:layout_width="280dp"
+                  android:layout_height="wrap_content"
+                  android:text="নোটিশ বোর্ড "
+                  android:textAlignment="center"
+                  android:background="@drawable/notice_bg"
+                  android:textColor="#fff"
+                  android:padding="10dp"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="5dp"
+                  android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:lineSpacingExtra="4dp"
+                  android:padding="10dp"
+                  android:textColor="#000"
+                  android:layout_margin="10dp"
+                  android:background="@drawable/editbg"
+                  android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                  android:text="@string/notice" />
+          </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="#c1e2ef"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:text="মাদ্রাসা পরিচিতি "
+                    android:textAlignment="center"
+                    android:background="@drawable/poriciti_heder"
+                    android:textColor="#fff"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="4dp"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/poriciti_bg"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:text="@string/mporicity" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
